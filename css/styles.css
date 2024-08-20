@@ -1,9 +1,4 @@
-/* جعل خلفية القسم الأبيض */
-section {
-    background-color: white;
-}
 
-/* تخصيص شريط التنقل ليكون في الجانب الأيسر */
 .navbar {
     position: fixed;
     top: 0;
@@ -11,12 +6,22 @@ section {
     width: 100%;
 }
 
-/* ضبط الخلفية السوداء لشريط التنقل */
+section {
+    padding-top: 80px; 
+    background-color: white; 
+}
+
+.main_img img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
 .navbar-dark {
     background-color: #000;
 }
 
-/* تغيير اللون الأساسي للروابط في شريط التنقل */
+
 .navbar-nav .nav-link {
     color: #fff;
 }
